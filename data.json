@@ -1,0 +1,159 @@
+{
+    "users": {
+        "Dr. Chris G": {
+            "password": "doctor123",
+            "role": "Doctor"
+        },
+        "Nurse Chris": {
+            "password": "nurse123",
+            "role": "Nurse"
+        },
+        "Admin Chris": {
+            "password": "admin123",
+            "role": "Admin"
+        },
+        "ChargeNurse Chris": {
+            "password": "charge123",
+            "role": "ChargeNurse"
+        }
+    },
+    "patients": {
+        "James Mitchell": {
+            "id": "PT-0101",
+            "ward": "Gen-B",
+            "status": "Stable",
+            "condition": "Acute Appendicitis - Post Appendectomy Day 1",
+            "diagnosis": "Acute Appendicitis - Post Appendectomy Day 1",
+            "allergies": "None known",
+            "medications": [
+                "Paracetamol 1g - 4x daily",
+                "Metronidazole 500mg - 3x daily"
+            ],
+            "vitals": {
+                "BP": "120/78",
+                "HR": "74 bpm",
+                "SpO2": "99",
+                "Pain": "3/10"
+            },
+            "labs": "WBC elevated - 13.2, improving post-op",
+            "notes": "Post appendectomy. Tolerating fluids. Plan to discharge tomorrow."
+        },
+        "Sarah Nguyen": {
+            "id": "PT-0102",
+            "ward": "ICU-1",
+            "status": "Critical",
+            "condition": "Gram-negative Sepsis - Urinary Sourc",
+            "diagnosis": "Gram-negative Sepsis - Urinary Sourc",
+            "allergies": "Sulfonamides - rash",
+            "medications": [
+                "Piperacillin-Tazobactam 4.5g IV",
+                "Noradrenaline IV",
+                "Vancomycin 1g IV"
+            ],
+            "vitals": {
+                "BP": "88/52",
+                "HR": "118 bpm",
+                "SpO2": "91%",
+                "Pain": "6/10"
+            },
+            "labs": "Lactate 4.2 mmol/L elevated, Blood cultures pending",
+            "notes": "ICU admission. Vasopressor support ongoing. MAP target >65."
+        }
+    },
+    "notifications": [
+        {
+            "type": "warning",
+            "msg": "Patient Y - Troponin result pending repeat"
+        },
+        {
+            "type": "success",
+            "msg": "Surgery request for Patient X - Approved"
+        },
+        {
+            "type": "urgent",
+            "msg": "Nurse request: Doctor consult for Patient Z"
+        }
+    ],
+    "assignments": {},
+    "archived_patients": {
+        "test": {
+            "id": "1",
+            "ward": "",
+            "status": "Stable",
+            "condition": "",
+            "diagnosis": "",
+            "allergies": "",
+            "medications": [
+                ""
+            ],
+            "vitals": {
+                "BP": "",
+                "HR": "",
+                "SpO2": "",
+                "Pain": ""
+            },
+            "labs": "",
+            "notes": "",
+            "archived_date": "29/03/2026",
+            "archive_reason": "test",
+            "viewed_by": [
+                "Dr. Chris G — 29/03/2026 17:53",
+                "ChargeNurse Chris — 29/03/2026 17:56",
+                "Dr. Chris G — 29/03/2026 17:57"
+            ]
+        },
+        "David Okafor": {
+            "id": "PT-0105",
+            "ward": "Cardio-B",
+            "status": "Stable",
+            "condition": "Congestive Heart Failure - Acute Exacerbation",
+            "diagnosis": "Congestive Heart Failure - Acute Exacerbation",
+            "allergies": "Aspirin - GI upset",
+            "medications": [
+                "BNP 1840 pg/mL elevated",
+                "Na 132 low"
+            ],
+            "vitals": {
+                "BP": "142/90",
+                "HR": "82 bpm",
+                "SpO2": "94%",
+                "Pain": "1/10"
+            },
+            "labs": "Full Blood Count - Mild anaemia, Hb 101",
+            "notes": "Fluid overload improving. Daily weights. Fluid restrict 1.5L/day.",
+            "archived_date": "29/03/2026",
+            "archive_reason": "Transferred to Cardiology Specialist Unit - Heart failure stabilised, ongoing management required at specialist centre. Discharged from MediNova 29/03/2026.",
+            "viewed_by": [
+                "Dr. Chris G — 29/03/2026 17:53"
+            ]
+        },
+        "Robert Chen": {
+            "id": "PT-0103",
+            "ward": "Ortho A",
+            "status": "Recovering",
+            "condition": "Post Total Knee Replacement - Right Knee",
+            "diagnosis": "Post Total Knee Replacement - Right Knee",
+            "allergies": "None known",
+            "medications": [
+                "Oxycodone 5mg PRN",
+                "Aspirin 100mg",
+                "Paracetamol 1g"
+            ],
+            "vitals": {
+                "BP": "130/85",
+                "HR": "78 bpm",
+                "SpO2": "97%",
+                "Pain": "4/10"
+            },
+            "labs": "Full Blood Count - Mild anaemia, Hb 101",
+            "notes": "Day 3 post TKR. Physio twice daily. Target discharge day 5.",
+            "archived_date": "29/03/2026",
+            "archive_reason": "test",
+            "closed_by": "Dr. Chris G",
+            "closed_at": "29/03/2026 17:50",
+            "viewed_by": [
+                "Dr. Chris G — 29/03/2026 17:53"
+            ]
+        }
+    }
+}

@@ -76,32 +76,6 @@
     ],
     "assignments": {},
     "archived_patients": {
-        "test": {
-            "id": "1",
-            "ward": "",
-            "status": "Stable",
-            "condition": "",
-            "diagnosis": "",
-            "allergies": "",
-            "medications": [
-                ""
-            ],
-            "vitals": {
-                "BP": "",
-                "HR": "",
-                "SpO2": "",
-                "Pain": ""
-            },
-            "labs": "",
-            "notes": "",
-            "archived_date": "29/03/2026",
-            "archive_reason": "test",
-            "viewed_by": [
-                "Dr. Chris G — 29/03/2026 17:53",
-                "ChargeNurse Chris — 29/03/2026 17:56",
-                "Dr. Chris G — 29/03/2026 17:57"
-            ]
-        },
         "David Okafor": {
             "id": "PT-0105",
             "ward": "Cardio-B",
@@ -148,7 +122,7 @@
             "labs": "Full Blood Count - Mild anaemia, Hb 101",
             "notes": "Day 3 post TKR. Physio twice daily. Target discharge day 5.",
             "archived_date": "29/03/2026",
-            "archive_reason": "test",
+            "archive_reason": "",
             "closed_by": "Dr. Chris G",
             "closed_at": "29/03/2026 17:50",
             "viewed_by": [

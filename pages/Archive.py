@@ -36,7 +36,7 @@ if st.session_state["role"] not in allowed_roles:
         elif st.session_state["role"] == "Admin":
             st.switch_page("pages/AdminDashBoard.py")
         else:
-            st.switch_page("streamlit.py")
+            st.switch_page("Streamlit.py")
     st.stop()
 
 # Load data

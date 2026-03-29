@@ -69,7 +69,7 @@ with col_b:
     if st.button("↩ Logout"):
         st.session_state["name"] = ""
         st.session_state["role"] = ""
-        st.switch_page("streamlit.py")
+        st.switch_page("Streamlit.py")
 
 left, right = st.columns([1.5, 1])
 
